@@ -1,0 +1,25 @@
+# Never bake the dataset into the image — it's ~90MB zipped, several
+# hundred MB extracted, and the deployed app never needs it: inference
+# only needs model.pt + model_metadata.json, not the training data.
+data/
+EuroSAT.zip
+
+# Training/analysis scripts and their outputs aren't part of the
+# deployed app — only app.py, inference.py, model.py, utils.py are.
+error_analysis_output/
+day1_data_pipeline.py
+day2_transfer_learning.py
+day2_export_cell.py
+error_analyis.py
+day3_error_analysis.py
+export_test_images.py
+test_images/
+
+# Python/OS/editor noise
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.git/
+.gitignore
+.vscode/
+.DS_Store
