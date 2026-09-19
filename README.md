@@ -9,7 +9,7 @@ The project combines **deep learning, transfer learning, computer vision, and St
 ## 🚀 Live Demo
 
 **Try EcoVision:**  
-[Open the Live App](YOUR_STREAMLIT_APP_URL)
+[Open the Live App](https://ecovisionclimateimpactanddeforestationtracker.streamlit.app/)
 
 The application is deployed using **Streamlit Community Cloud** and connected directly to this GitHub repository.
 
